@@ -60,7 +60,7 @@ for (let details of info){
     console.log(`There are ${stateCount} states/provinces listed here.` );
 
 // Click Create Lead
-    //await page.locator(`.smallSubmit`).click()
+    await page.locator(`.smallSubmit`).click()
     await page.waitForTimeout(6000)
 }})
     }
